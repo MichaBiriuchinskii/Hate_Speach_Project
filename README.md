@@ -12,6 +12,7 @@ Multi-label Hate Speech and Abusive Language Detection in Russian Twitter
 
  
 [Rapport](https://docs.google.com/document/d/1mpIZTTNfSTpAC_-KFgHzCuJzqFXJUsKpOIh5w6bIi5M/edit?usp=sharing)
+
 [Presentation](https://docs.google.com/presentation/d/16XHblRbFDrCMUgkUfqSs_tVqV5MqLQzf-9LJBSvVLBU/edit?usp=share_link)
 
 The main dataset can be seen with labels information as follows:
