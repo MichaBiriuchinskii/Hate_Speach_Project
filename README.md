@@ -1,19 +1,33 @@
-# Hate_Speech_Project
-Multi-label Hate Speech and Abusive Language Detection in Russian Twitter
+# Projet de Détection de Discours Haineux
+
+Bienvenue dans le projet de détection de discours haineux ! Ce référentiel contient le code, les documents et le rapport de notre projet visant à détecter le discours haineux et abusif dans les messages en ligne.
+
+## Aperçu
+
+Ce projet repose sur un modèle de détection de discours haineux élaboré par des chercheurs, que nous avons adapté à un jeu de données en russe. Notre objectif est de contribuer à la création d'un environnement numérique plus sûr et respectueux pour les utilisateurs de la langue russe en ligne.
 
 
+## Contenu
 
-[Dataset annotation table](https://docs.google.com/spreadsheets/d/1bDpmbGB9vX-5t_1AXgNrgFdMRFu2UrXKCEI0rLDUsNw/edit?usp=sharing)
+Ce référentiel est organisé de la manière suivante :
 
+/Code : Ce répertoire contient le code source utilisé pour le prétraitement des données, l'entraînement du modèle, l'évaluation et la génération des résultats.
 
- 
-[Reference Dataset Repo](https://github.com/dhfbk/twitter-abusive-context-dataset)
+/Library : Ce dossier contient un rapport détaillé de notre expérience, y compris la méthodologie, les résultats et les conclusions.
 
+/dataset_raw : Le dossier "dataset_raw" contient les tableaux csv avant et après l'annotation manuelle, les matériaux sur l'évaluation de l'annotation (gold).
 
- 
-[Rapport](https://docs.google.com/document/d/1mpIZTTNfSTpAC_-KFgHzCuJzqFXJUsKpOIh5w6bIi5M/edit?usp=sharing)
+## Comment utiliser ce projet
 
-[Presentation](https://docs.google.com/presentation/d/16XHblRbFDrCMUgkUfqSs_tVqV5MqLQzf-9LJBSvVLBU/edit?usp=share_link)
+Pour utiliser ce projet, suivez les étapes suivantes :
+
+1. Clonez ce référentiel sur votre machine locale en utilisant la commande git clone.
+
+2. Accédez au répertoire /Code pour trouver le code source.
+
+3. Suivez les instructions dans le fichier README du répertoire /Code pour exécuter le code, prétraiter les données, entraîner le modèle, et évaluer les résultats.
+
+4. Vous pouvez également explorer les documents et le rapport dans les répertoires /Library et /dataset_raw pour une compréhension approfondie de notre expérience.
 
 The main dataset can be seen with labels information as follows:
 
@@ -29,3 +43,9 @@ The main dataset can be seen with labels information as follows:
 - HS_Weak : weak hate speech;
 - HS_Moderate : moderate hate speech;
 - HS_Strong : strong hate speech.
+
+## Remerciements
+  
+Nous tenons à remercier les [chercheurs](https://aclanthology.org/W19-3506/) dont le modèle initial a servi de base à ce projet, ainsi que tous ceux qui contribuent à la création d'un environnement en ligne plus inclusif et respectueux.
+
+
