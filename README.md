@@ -7,6 +7,21 @@ Bienvenue dans le projet de détection de discours haineux ! Ce référentiel co
 Ce projet repose sur un modèle de détection de discours haineux élaboré par des chercheurs, que nous avons adapté à un jeu de données en russe. Notre objectif est de contribuer à la création d'un environnement numérique plus sûr et respectueux pour les utilisateurs de la langue russe en ligne.
 
 
+## Évaluation du modèle 
+
+```
+Accuracy: 0.717948717948718
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.73      0.92      0.81        26
+           1       0.67      0.31      0.42        13
+
+    accuracy                           0.72        39
+   macro avg       0.70      0.62      0.62        39
+weighted avg       0.71      0.72      0.68        39
+```
+
 ## Contenu
 
 Ce référentiel est organisé de la manière suivante :
